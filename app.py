@@ -39,7 +39,7 @@ def show_video(path):
         image = relative_resize(image, width, height)
         image = to_string_image(image)
         render(image)
-        time.sleep(fps/1000)
+        time.sleep(1/fps)
 
 
 @click.command("show-camera")
