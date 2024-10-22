@@ -38,7 +38,7 @@ def to_string_image(image):
 def render(message):
     sys.stdout.write("\033[H")
     sys.stdout.flush()
-    sys.stdout.write("\n".join(message) + "\n")
+    sys.stdout.write("\n".join(message))
     sys.stdout.flush()
 
 
