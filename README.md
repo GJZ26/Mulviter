@@ -2,6 +2,8 @@
 
 Mulviter is a simple terminal-based application designed for viewing images, videos, and capturing camera input directly from the command line.
 
+![Parrot rendered image](./sample/rendered/image.jpg)
+
 ## Supported Platforms
 Mulviter has been tested and works seamlessly in the following environments:
 - CMD (Windows Command Prompt)
